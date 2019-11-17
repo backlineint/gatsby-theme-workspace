@@ -1,12 +1,14 @@
 const path = require(`path`)
 
 // Create a slug for each recipe and set it as a field on the node.
-exports.onCreateNode = ({ node, getNode, actions }) => {
+exports.onCreateNode = ({ node, getNode, actions }, options) => {
   const { createNodeField } = actions
   if (node.internal.type === `node__gatsby_md_post_markdown_post`) {
     // TODO - Slugify - date plus slug
     // TODO - Support path aliases
-    const slug = `/posts/${node.drupal_internal__nid}/`
+    const basePath = options.basePath || "/"
+    // TODO - ensure that basePath can allow a trailing slash
+    const slug = `${basePath}/${node.drupal_internal__nid}/`
     createNodeField({
       node,
       name: `slug`,
@@ -15,8 +17,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 // query for events and create pages
-exports.createPages = async ({ actions, graphql, reporter }) => {
-  const basePath = "/"
+exports.createPages = async ({ actions, graphql, reporter }, options) => {
+  const basePath = options.basePath || "/"
   actions.createPage({
     path: basePath,
     component: require.resolve("./src/templates/DrupalMarkdownPosts.js"),

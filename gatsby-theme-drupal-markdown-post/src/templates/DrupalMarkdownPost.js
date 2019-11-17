@@ -11,6 +11,13 @@ export const query = graphql`
       body {
         processed
       }
+      fields {
+        markdownBody {
+          childMarkdownRemark {
+            html
+          }
+        }
+      }
     }
   }
 `

@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-theme-drupal-markdown-post",
+  "name": "@backlineint/gatsby-theme-drupal-markdown-post",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",

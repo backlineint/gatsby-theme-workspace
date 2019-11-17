@@ -1,17 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Styled } from "theme-ui"
+
 const DrupalMarkdownPostList = ({ posts }) => (
   <>
-    <h1>Drupal Markdown Posts</h1>
-    <ul>
+    <Styled.h1>Drupal Markdown Posts</Styled.h1>
+    <Styled.ul>
       {posts.map(post => (
-        <li key={post.drupal_internal__nid}>
+        <Styled.li key={post.drupal_internal__nid}>
           <strong>
             <Link to={post.fields.slug}>{post.title}</Link>
           </strong>
-        </li>
+        </Styled.li>
       ))}
-    </ul>
+    </Styled.ul>
   </>
 )
 

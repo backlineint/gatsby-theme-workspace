@@ -6,8 +6,7 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "develop": "gatsby develop",
-    "postinstall": "patch-package"
+    "develop": "gatsby develop"
   },
   "peerDependencies": {
     "gatsby": "^2.17.15",
@@ -20,12 +19,10 @@
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "@weknow/gatsby-remark-drupal": "^0.3.2",
+    "@weknow/gatsby-remark-drupal": "backlineint/gatsby-remark-drupal#custom-image-regex",
     "gatsby-plugin-sharp": "^2.3.0",
     "gatsby-remark-images": "^3.1.31",
     "gatsby-source-drupal": "^3.3.6",
-    "gatsby-transformer-remark": "^2.6.35",
-    "patch-package": "^6.2.0",
-    "postinstall-postinstall": "^2.0.0"
+    "gatsby-transformer-remark": "^2.6.35"
   }
 }

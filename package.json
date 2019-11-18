@@ -1,8 +1,5 @@
 {
   "private": true,
-  "scripts": {
-    "postinstall": "patch-package"
-  },
   "workspaces": [
     "gatsby-theme-drupal-markdown-post",
     "site"

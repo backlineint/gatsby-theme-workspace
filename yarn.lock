@@ -1464,7 +1464,7 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@weknow/gatsby-remark-drupal@backlineint/gatsby-remark-drupal#custom-image-regex":
+"@weknow/gatsby-remark-drupal@backlineint/gatsby-remark-drupal#custom-image-regex", "@weknow/gatsby-remark-drupal@github:backlineint/gatsby-remark-drupal#custom-image-regex":
   version "0.3.2"
   resolved "https://codeload.github.com/backlineint/gatsby-remark-drupal/tar.gz/3cc9c3435835a1f542428d5ef6d8b1b513bdb753"
   dependencies:
@@ -5389,6 +5389,16 @@ gatsby-telemetry@^1.1.37:
     stack-trace "^0.0.10"
     stack-utils "1.0.2"
     uuid "3.3.3"
+
+gatsby-theme-drupal-markdown-post@*:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-drupal-markdown-post/-/gatsby-theme-drupal-markdown-post-1.0.5.tgz#c19fb0d0488d113fee3b045427387937396b6ffb"
+  integrity sha512-YwVYhnau+Yb5LeSOAj3eRT3cOXJLAoWQS0G07jtqLRvn08WiTcYGwdl1diEg/7xpBlboLtkf+GBN/ZgjwberXw==
+  dependencies:
+    "@weknow/gatsby-remark-drupal" "github:backlineint/gatsby-remark-drupal#custom-image-regex"
+    gatsby-plugin-sharp "^2.3.0"
+    gatsby-remark-images "^3.1.31"
+    gatsby-transformer-remark "^2.6.35"
 
 gatsby-transformer-remark@^2.6.35:
   version "2.6.35"
@@ -12560,9 +12570,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-fetch@2.0.4:
   version "2.0.4"

@@ -1464,7 +1464,7 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@weknow/gatsby-remark-drupal@backlineint/gatsby-remark-drupal#custom-image-regex":
+"@weknow/gatsby-remark-drupal@backlineint/gatsby-remark-drupal#custom-image-regex", "@weknow/gatsby-remark-drupal@github:backlineint/gatsby-remark-drupal#custom-image-regex":
   version "0.3.2"
   resolved "https://codeload.github.com/backlineint/gatsby-remark-drupal/tar.gz/3cc9c3435835a1f542428d5ef6d8b1b513bdb753"
   dependencies:
@@ -5390,6 +5390,16 @@ gatsby-telemetry@^1.1.37:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
+gatsby-theme-drupal-markdown-post@*:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-drupal-markdown-post/-/gatsby-theme-drupal-markdown-post-1.0.5.tgz#c19fb0d0488d113fee3b045427387937396b6ffb"
+  integrity sha512-YwVYhnau+Yb5LeSOAj3eRT3cOXJLAoWQS0G07jtqLRvn08WiTcYGwdl1diEg/7xpBlboLtkf+GBN/ZgjwberXw==
+  dependencies:
+    "@weknow/gatsby-remark-drupal" "github:backlineint/gatsby-remark-drupal#custom-image-regex"
+    gatsby-plugin-sharp "^2.3.0"
+    gatsby-remark-images "^3.1.31"
+    gatsby-transformer-remark "^2.6.35"
+
 gatsby-transformer-remark@^2.6.35:
   version "2.6.35"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.6.35.tgz#f91ce377e6cc758515cf80d4b19169880e640c1b"
@@ -7569,9 +7579,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-update@^3.0.0:
   version "3.3.0"

@@ -1464,7 +1464,7 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@weknow/gatsby-remark-drupal@backlineint/gatsby-remark-drupal#custom-image-regex":
+"@weknow/gatsby-remark-drupal@backlineint/gatsby-remark-drupal#custom-image-regex", "@weknow/gatsby-remark-drupal@github:backlineint/gatsby-remark-drupal#custom-image-regex":
   version "0.3.2"
   resolved "https://codeload.github.com/backlineint/gatsby-remark-drupal/tar.gz/3cc9c3435835a1f542428d5ef6d8b1b513bdb753"
   dependencies:
@@ -1499,9 +1499,9 @@ acorn-jsx@^5.1.0:
   integrity sha512-tMUqwBWfLFbJbizRmEcWSLw6HnFzfdJs2sOJEOwwtVPMoH/0Ay+E703oZz78VSXZiiDcZrQ5XKjPIUQixhmgVw==
 
 acorn@^6.2.1:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
-  integrity sha512-/czfa8BwS88b9gWQVhc8eknunSA2DoJpJyTQkhheIf5E48u1N0R4q/YxxsAeqRrmK9TQ/uYfgLDfZo91UlANIA==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 acorn@^7.1.0:
   version "7.1.0"
@@ -5389,6 +5389,16 @@ gatsby-telemetry@^1.1.37:
     stack-trace "^0.0.10"
     stack-utils "1.0.2"
     uuid "3.3.3"
+
+gatsby-theme-drupal-markdown-post@*:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-drupal-markdown-post/-/gatsby-theme-drupal-markdown-post-1.0.5.tgz#c19fb0d0488d113fee3b045427387937396b6ffb"
+  integrity sha512-YwVYhnau+Yb5LeSOAj3eRT3cOXJLAoWQS0G07jtqLRvn08WiTcYGwdl1diEg/7xpBlboLtkf+GBN/ZgjwberXw==
+  dependencies:
+    "@weknow/gatsby-remark-drupal" "github:backlineint/gatsby-remark-drupal#custom-image-regex"
+    gatsby-plugin-sharp "^2.3.0"
+    gatsby-remark-images "^3.1.31"
+    gatsby-transformer-remark "^2.6.35"
 
 gatsby-transformer-remark@^2.6.35:
   version "2.6.35"
